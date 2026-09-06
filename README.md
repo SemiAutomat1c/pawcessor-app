@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/hero-working.png" width="720" alt="Pawcessor cat working at a laptop on the Mac desktop">
+  <img src="assets/hero-glance.webp" width="820" alt="Pawcessor: the cat resting on a laptop above a code editor, with the pawprint inspector showing Bond, Energy, Mood and Flow, and the right-click menu open">
 </p>
 
 ---
