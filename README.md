@@ -34,6 +34,8 @@ macOS 14 or later. Universal zip (Apple Silicon and Intel), about 4 MB. Ad-hoc s
 2. Control-click the app and choose **Open**. Confirm Open if macOS asks.
 3. If you still see “Not Opened”, go to System Settings, Privacy & Security, then Open Anyway.
 
+Mac only for now. Want a Windows version? [Let me know](https://github.com/SemiAutomat1c/pawcessor-app/issues/new?title=Windows%20version).
+
 The pawprint extra is a tiny inspector (care stats, Connect Codex, display). Right-click the cat for Feed, Preview poses, Pause, Hide, Reset, and Quit. Click the cat to pet it. After Hide, use **show** on the inspector.
 
 ## What you see
