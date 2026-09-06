@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pawcessor - a tiny coding familiar for macOS</title>
+  <meta name="description" content="A pixel cat that lives on your Mac desktop, works when your agent works, and stays out of the way while you type.">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <meta property="og:title" content="Pawcessor">
+  <meta property="og:description" content="A pixel cat that lives on your Mac desktop.">
+  <meta property="og:image" content="assets/icon-512.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="wrap hero">
+    <img class="icon" src="assets/icon-512.png" width="512" height="512" alt="Pawcessor app icon: a yawning pixel cat on apricot">
+    <div>
+      <p class="kicker">macOS desktop pet</p>
+      <h1>Pawcessor</h1>
+      <p class="lede">A pixel cat that lives on the desktop, works when your agent works, and stays out of the way while you type.</p>
+      <div class="actions">
+        <a class="btn" href="https://github.com/SemiAutomat1c/pawcessor-app/releases/latest/download/Pawcessor-macos.zip">Download for Mac</a>
+        <p class="note">macOS 14 or later. Universal zip, about 4 MB.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="panel" aria-labelledby="open-heading">
+      <h2 id="open-heading">First launch</h2>
+      <ol>
+        <li>Unzip <code>Pawcessor-macos.zip</code> and drag <code>Pawcessor.app</code> into Applications.</li>
+        <li>Control-click the app and choose Open. Confirm Open if macOS asks.</li>
+        <li>If you still see “Not Opened”, go to System Settings, Privacy &amp; Security, then Open Anyway.</li>
+      </ol>
+      <p class="note" style="margin-top:16px">This preview is ad-hoc signed, not notarized. Apple has not checked it. A notarized build comes later.</p>
+    </section>
+
+    <section class="panel" aria-labelledby="signals-heading">
+      <h2 id="signals-heading">What you see</h2>
+      <div class="signals">
+        <div><strong>Laptop, sphinx pose</strong><span>An agent is working</span></div>
+        <div><strong>Alert, ears up</strong><span>Needs input</span></div>
+        <div><strong>Short hop, then a badge</strong><span>Done, waiting for you</span></div>
+        <div><strong>Soft recovery pose</strong><span>Blocked or failed</span></div>
+        <div><strong>Hearts</strong><span>You just pet it</span></div>
+        <div><strong>Head down at a bowl</strong><span>You just fed it</span></div>
+      </div>
+      <img class="desk" src="assets/hero-working.png" width="560" height="280" alt="Pixel cat working at a tiny laptop">
+    </section>
+
+    <section class="panel" aria-labelledby="privacy-heading">
+      <h2 id="privacy-heading">Local only</h2>
+      <div class="privacy">
+        <p>No accounts, no analytics, no internet sockets. It never asks for Accessibility, Input Monitoring, Screen Recording, camera, or microphone.</p>
+        <p>Optional Orca support reads one private status file on your Mac. Prompts and code stay unread. Click the cat to pet it. Feed is in the menu-bar pawprint.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>Pawcessor is a menu-bar accessory. No Dock icon. Skipping a meal only softens Mood. The pet cannot die, get sick, or run away.</p>
+    <p>Made by Ryan Deniega. Source stays private while this preview is unsigned.</p>
+  </footer>
+</body>
+</html>
