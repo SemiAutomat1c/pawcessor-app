@@ -145,27 +145,34 @@ ol li + li {
   margin-top: 8px;
 }
 
-.signals {
+.poses {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px 32px;
-  max-width: 720px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 18px;
 }
 
-.signals div {
-  display: grid;
-  grid-template-columns: 140px 1fr;
-  gap: 12px;
-  padding: 10px 0;
-  border-bottom: 1px solid var(--hairline);
+.poses figure {
+  margin: 0;
 }
 
-.signals strong {
-  font-weight: 650;
+.poses img {
+  display: block;
+  width: 100%;
+  border-radius: var(--radius);
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background: #161418;
 }
 
-.signals span {
+.poses figcaption {
+  margin-top: 10px;
   color: var(--cream-dim);
+}
+
+.poses strong {
+  display: block;
+  color: var(--cream);
+  font-weight: 650;
 }
 
 .privacy {
@@ -175,13 +182,6 @@ ol li + li {
 
 .privacy p {
   margin: 0 0 10px;
-}
-
-.desk {
-  margin: 28px 0 0;
-  width: min(420px, 100%);
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
 }
 
 footer {
@@ -204,13 +204,8 @@ footer {
     border-radius: 28px;
   }
 
-  .signals {
-    grid-template-columns: 1fr;
-  }
-
-  .signals div {
-    grid-template-columns: 1fr;
-    gap: 4px;
+  .poses {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
