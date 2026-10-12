@@ -175,6 +175,22 @@ ol li + li {
   font-weight: 650;
 }
 
+.poses-music {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 720px;
+}
+
+.music-intro {
+  max-width: 58ch;
+  color: var(--cream-dim);
+  margin: 0 0 24px;
+}
+
+.music-note {
+  max-width: 68ch;
+  margin-top: 20px;
+}
+
 .privacy {
   max-width: 58ch;
   color: var(--cream-dim);

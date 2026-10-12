@@ -22,13 +22,13 @@
 
 ---
 
-This repo is the **public download page and Mac zip**. The app source stays private while this preview is unsigned.
+This repo is the **public download page and Mac zip**. The app source stays private during the preview.
 
 Pawcessor is a native menu-bar accessory: no Dock icon, no app-switcher entry, no focus steal. Glance at the cat instead of flipping back to the agent window.
 
 ## Download
 
-macOS 14 or later. Universal zip (Apple Silicon and Intel), about 4 MB. Ad-hoc signed, **not notarized**.
+Current preview: **v0.1.1**. macOS 14 or later. Universal zip for Apple Silicon and Intel. Ad-hoc signed, **not notarized**.
 
 1. Unzip `Pawcessor-macos.zip` and drag `Pawcessor.app` into Applications.
 2. Control-click the app and choose **Open**. Confirm Open if macOS asks.
@@ -48,8 +48,11 @@ The pawprint extra is a tiny inspector (care stats, Connect Codex, display). Rig
 | <img src="assets/poses/blocked.png" width="72" alt=""> Soft recovery | **Blocked** or failed |
 | <img src="assets/poses/pet.png" width="72" alt=""> Hearts | You just **pet** it |
 | <img src="assets/poses/feed.png" width="72" alt=""> Bowl | You just **fed** it |
+| <img src="assets/poses/listening-left.png" width="72" alt=""><img src="assets/poses/listening-right.png" width="72" alt=""> Headphones, nod, notes | Audio is playing on your Mac |
 
 Care is Tamagotchi-light: Bond, Energy, Mood, and Flow. Skipping a meal only softens Mood. The pet cannot die, get sick, or run away.
+
+Music cues work through speakers or headphones, with a gentle head nod and rising notes in both directions. The laptop stays while you code. This is an ambient rhythm, with no audio recording, microphone access, track metadata or beat detection. Cues follow output activity; an app may keep its audio stream active after pausing playback. The website demos use the app's actual sprites, with still images for reduced-motion settings.
 
 ## Privacy
 

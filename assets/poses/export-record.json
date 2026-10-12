@@ -1,0 +1,83 @@
+[
+  {
+    "body" : "work",
+    "direction" : "right",
+    "durationMilliseconds" : 1070,
+    "frames" : 7,
+    "name" : "working",
+    "overlays" : [
+      "laptop"
+    ]
+  },
+  {
+    "body" : "needs-input",
+    "direction" : "right",
+    "durationMilliseconds" : 2040,
+    "frames" : 16,
+    "name" : "needs-input",
+    "overlays" : [
+      "attention"
+    ]
+  },
+  {
+    "body" : "success",
+    "direction" : "right",
+    "durationMilliseconds" : 3900,
+    "frames" : 11,
+    "name" : "done",
+    "overlays" : [
+      "particles",
+      "completion"
+    ]
+  },
+  {
+    "body" : "failure",
+    "direction" : "right",
+    "durationMilliseconds" : 3900,
+    "frames" : 10,
+    "name" : "blocked",
+    "overlays" : [
+      "blocked"
+    ]
+  },
+  {
+    "body" : "petting",
+    "direction" : "right",
+    "durationMilliseconds" : 2740,
+    "frames" : 9,
+    "name" : "pet",
+    "overlays" : [
+      "hearts"
+    ]
+  },
+  {
+    "body" : "eat",
+    "direction" : "right",
+    "durationMilliseconds" : 2900,
+    "frames" : 9,
+    "name" : "feed",
+    "overlays" : [
+      "food-bowl"
+    ]
+  },
+  {
+    "body" : "listen",
+    "direction" : "left",
+    "durationMilliseconds" : 1280,
+    "frames" : 8,
+    "name" : "listening-left",
+    "overlays" : [
+      "music-notes"
+    ]
+  },
+  {
+    "body" : "listen",
+    "direction" : "right",
+    "durationMilliseconds" : 1280,
+    "frames" : 8,
+    "name" : "listening-right",
+    "overlays" : [
+      "music-notes"
+    ]
+  }
+]
